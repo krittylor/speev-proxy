@@ -10,4 +10,5 @@ app.get('/@:userhandler', function(req, res) {
   res.redirect('http://beta.speev.com/' + req.params.userhandler);
 })
 
+
 app.listen(3000);
