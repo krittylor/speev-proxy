@@ -8,7 +8,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/:email', function(req, res) {
-  res.redirect('http://beta.speev.com/' + req.params.email);
+  res.redirect('http://beta.speev.com/shared/' + req.params.email);
 })
 
 app.listen(PORT, '0.0.0.0', () =>
