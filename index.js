@@ -11,6 +11,6 @@ app.get('/:email', function(req, res) {
   res.redirect('http://beta.speev.com/' + req.params.email);
 })
 
-server.listen(PORT, '0.0.0.0', () =>
+app.listen(PORT, '0.0.0.0', () =>
   console.log(`Speev proxy server is now running on http://0.0.0.0:${PORT}`)
 );
