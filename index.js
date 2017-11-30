@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 app.get('/', function(req, res){
   console.log(req.headers);
   res.redirect('http://beta.speev.com');
